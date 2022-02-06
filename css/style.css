@@ -1,0 +1,116 @@
+/* Default css start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+p,a,span h2{
+    font-family: 'Lato', sans-serif
+}
+
+body,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif
+}
+
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+/* Default css end */
+/* nav part  start*/
+#nav{
+    background: #F6F9F9;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display:inline-block
+}
+.logo-item{
+    width: 40%;
+}
+.logo{
+    padding-top: 1px;
+    font-size: 35px;
+}
+.menu-item{
+    width: 34%;
+}
+.icon-item{
+    width: 24%;
+}
+.menu ul li a{
+    padding: 15px 30px;
+    color: #2D3950;
+}
+.ICON i{
+    padding: 15px 10px;
+}
+.ICON i:hover{
+    background: rgba(0, 0, 255, 0.527);
+    color: #fff;
+}
+/* nav part  end*/
+/* banner part  start*/
+#banner{
+    padding: 6opx 0;
+    background: url(../image/background.jpg) no-repeat center / cover;
+
+}
+.ban-text{
+    text-align: center;
+    color: #FFFFFF;
+}
+.ban-text h1{
+    font-size: 120px;
+    padding-top: 220px;
+    padding-bottom: 35px;
+}
+.ban-text p{
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 68px;
+}
+.ban-border{
+    border: 1px solid #15A4FA;
+    width: 600px;
+    margin: 0 auto;
+}
+.ban-btn a{
+    border: 2px solid #fff;
+    padding: 25px 35px;
+    color: #F6F9F9;
+    border-radius: 5px;
+}
+.ban-btn a:hover{
+    background: #15A4FA;
+    border: 2px solid#15A4FA;
+}
+.ban-icon{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 90px;
+   
+}
+.ban-icon i{
+font-size: 35px;
+}
+/* banner part  end*/
